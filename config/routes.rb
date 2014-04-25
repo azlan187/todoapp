@@ -1,4 +1,6 @@
 Todoapp::Application.routes.draw do
+  get "pages/about"
+  get "view_table/index"
   resources :tasks
 
   root 'tasks#index'
